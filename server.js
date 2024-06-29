@@ -19,7 +19,7 @@ app.use((req, res, next) => {
 });
 
 // Connecting the router to the server
-app.use('/users', userRouter);
+app.use('/api/v1/users', userRouter);
 
 // Error Handling Middlware
 app.use((err, req, res, next) => {
